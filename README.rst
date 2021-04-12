@@ -22,16 +22,10 @@ Django Component Tags - Tailwindcss
 
 Tailwindcss component tags for Django Projects.
 
-.. list-table:: Demo
-   :widths: 50 50
+Demo:
 
-   * - .. image:: docs/_static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png
-            :width: 400
-            :alt: Demo 1
-     - .. image:: docs/_static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png
-            :width: 400
-            :alt: Demo 2
-
+* `Components list <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png>`_
+* `Modal component <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png>`_
 
 
 Description
@@ -43,10 +37,12 @@ created with `django-component-tags <https://github.com/syse-i/django-component-
 **Tailwind** is an utility-first CSS framework packed with classes like ``flex, pt-4, text-center and rotate-90``
 that can be composed to build any design, directly in your markup.
 
+
 Requirements
 ============
 
 Requires Django 2.2 or newer, and is tested against Python 3.7 and PyPy.
+
 
 Quick Start
 ============
@@ -121,6 +117,7 @@ We encourage you to make your own installation of Tailwindcss, do not use this b
 
     Checkout `Tailwindcss documentation <https://tailwindcss.com/docs/installation>`_ for more information.
 
+
 Components
 ==========
 
@@ -141,6 +138,7 @@ You can of course extend this components and implement your own javascript frame
 .. note::
 
     Checkout `AlpineJS documentation <https://github.com/alpinejs/alpine/>`_ for more information.
+
 
 Examples
 ========
