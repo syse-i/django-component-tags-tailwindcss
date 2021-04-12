@@ -25,10 +25,10 @@ Tailwindcss component tags for Django Projects.
 .. list-table:: Demo
    :widths: 50 50
 
-   * - .. image:: _static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png
+   * - .. image:: docs/_static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png
             :width: 400
             :alt: Demo 1
-     - .. image:: _static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png
+     - .. image:: docs/_static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png
             :width: 400
             :alt: Demo 2
 
