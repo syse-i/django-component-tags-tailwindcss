@@ -145,7 +145,8 @@ You can of course extend this components and implement your own javascript frame
 Examples
 ========
 
-Here we have just a couple of examples to showcase the code. Checkout the example template
+Here we have just a couple of examples to showcase the code. Checkout this
+`template <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/templates/index.html>`_
 if you want to get more examples.
 
 Alert
