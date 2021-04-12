@@ -1,0 +1,5 @@
+{% load tailwindcss_component_tags %}
+
+{% alert color=body.level_tag with message=body|safe %}
+    {{ message }}
+{% endalert %}

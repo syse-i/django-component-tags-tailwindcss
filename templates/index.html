@@ -1,0 +1,129 @@
+{% extends 'component_tags_tailwindcss/base.html' %}
+{% load i18n %}
+{% load cache %}
+{% load tailwindcss_component_tags %}
+
+{% block content %}
+    <div class="container mx-auto">
+        <div class="divide-y divide-gray-400">
+            <div class="py-2">
+                <h2>Links</h2>
+                <div class="py-2 space-y-2">
+                    {% cache 1 foo request.user %}
+                        <div>{% link %}Link{% endlink %}</div>
+                    {% endcache %}
+                    <div>{% link color="text" %}Link-text{% endlink %}</div>
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Alert</h2>
+                <div class="py-2">
+                    {% cache 1 sidebar request.user %}
+                        {% alert class="my-2" %}Alert 1{% endalert %}
+                        {% alert color="primary" class="my-2" close=False %}{% lorem %}{% endalert %}
+                    {% endcache %}
+                    {% alert color="success" class="my-2" %}Message{% endalert %}
+                    {% alert color="warning" class="my-2" %}Message{% endalert %}
+                    {% alert color="error" class="my-2" %}Message{% endalert %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Badge</h2>
+                <div class="py-2">
+                    {% badge 100 %}
+                    {% badge 20 color="success" %}
+                    {% badge 53 color="warning" %}
+                    {% badge 1 color="error" %}
+                    {% badge 15 color="default" %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Breadcrumb</h2>
+                <div class="py-2">
+                    {% breadcrumb %}
+                        {% breadcrumb_item 'Foo' %}
+                        {% breadcrumb_item 'Bar' %}
+                        {% breadcrumb_item 'xyz' active=True %}
+                    {% endbreadcrumb %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Button</h2>
+                <div class="flex items-center space-x-2 py-2">
+                    {% button %}Button{% endbutton %}
+                    {% button color="primary" %}Button{% endbutton %}
+                    {% button color="success" %}Button{% endbutton %}
+                    {% button color="warning" %}Button{% endbutton %}
+                    {% button color="error" %}Button{% endbutton %}
+                    {% button href="/" %}Link Button{% endbutton %}
+                    {% button href="/" color="link" %}Primary Link Button{% endbutton %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Card</h2>
+                <div class="py-2">
+                    {% card %}
+                        {% slot 'header' %}
+                            <img class="w-full"
+                                 src="https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
+                                 alt="card-logo">
+                        {% endslot %}
+                        Card body
+                    {% endcard %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Dropdown</h2>
+                <div class="py-2">
+                    {% dropdown title="Dropdown" %}
+                        {% dropdown_item 'foo' %}
+                        {% dropdown_item 'bar' %}
+                        {% dropdown_item_divider %}
+                        {% dropdown_item 'foo' %}
+                        {% dropdown_item 'bar' %}
+                    {% enddropdown %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Label</h2>
+                <div class="py-2">
+                    {% label color="primary" %}Label{% endlabel %}
+                    {% label color="success" %}Label{% endlabel %}
+                    {% label color="warning" %}Label{% endlabel %}
+                    {% label color="error" %}Label{% endlabel %}
+                </div>
+            </div>
+            <div class="py-2">
+                <h2>Modal</h2>
+                <div class="py-2 flex items-center space-x-2">
+                    {% modal title="Modal Title 1" %}
+                        {% slot 'activator' %}
+                            {% button click="open = true" %}Modal 1{% endbutton %}
+                        {% endslot %}
+                        {% slot 'content' %}
+                            {% lorem %}
+                        {% endslot %}
+                        {% slot 'actions' %}
+                            {% button color="primary" %}
+                                {% trans 'Open' %}
+                            {% endbutton %}
+                        {% endslot %}
+                    {% endmodal %}
+                    {% modal title="Modal Title 2" %}
+                        {% slot 'activator' %}
+                            {% button click="open = true" %}Modal 2{% endbutton %}
+                        {% endslot %}
+                        {% slot 'content' %}
+                            {% lorem %}
+                        {% endslot %}
+                        {% slot 'actions' %}
+                            {% button color="primary" %}
+                                {% trans 'Open' %}
+                            {% endbutton %}
+                        {% endslot %}
+                    {% endmodal %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

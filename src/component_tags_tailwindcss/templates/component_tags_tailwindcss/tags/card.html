@@ -1,0 +1,13 @@
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+    {% if slot_header %}
+        {{ slot_header }}
+    {% endif %}
+    <div class="px-6 py-4">
+        {% if title %}
+            <div class="font-bold text-xl mb-2">{{ title }}</div>
+        {% endif %}
+        <div class="text-gray-700 text-base">
+            {{ nodelist }}
+        </div>
+    </div>
+</div>

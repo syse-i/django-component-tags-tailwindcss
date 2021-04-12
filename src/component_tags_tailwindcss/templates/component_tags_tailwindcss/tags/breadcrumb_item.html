@@ -1,0 +1,8 @@
+<div {{ attributes }}>
+    {% if active %}
+        <span>{{ title }}</span>
+    {% else %}
+        <a href="{{ href }}">{{ title }}</a>
+    {% endif %}
+</div>
+
