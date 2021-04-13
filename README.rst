@@ -2,25 +2,23 @@
 Django Component Tags - Tailwindcss
 ===================================
 
-.. comment::
+:Test Status:
+    .. image:: https://img.shields.io/github/workflow/status/syse-i/django-component-tags-tailwindcss/Run%20tests
+        :alt: GitHub Workflow Status
 
-    :Test Status:
-        .. image:: https://img.shields.io/github/workflow/status/syse-i/django-component-tags-tailwindcss/Run%20tests
-            :alt: GitHub Workflow Status
+:Version Info:
+    .. image:: https://img.shields.io/pypi/v/django-component-tags-tailwindcss?label=PyPi
+        :alt: PyPI
 
-    :Version Info:
-        .. image:: https://img.shields.io/pypi/v/django-component-tags-tailwindcss?label=PyPi
-            :alt: PyPI
+    .. image:: https://img.shields.io/pypi/dm/django-component-tags-tailwindcss?label=Downloads&style=flat-square
+        :alt: PyPI - Downloads
 
-        .. image:: https://img.shields.io/pypi/dm/django-component-tags-tailwindcss?label=Downloads&style=flat-square
-            :alt: PyPI - Downloads
+:Compatibility:
+    .. image:: https://img.shields.io/pypi/pyversions/django-component-tags-tailwindcss?style=flat-square&label=Python%20Versions
+        :target: https://pypi.org/project/django-component-tags-tailwindcss/
 
-    :Compatibility:
-        .. image:: https://img.shields.io/pypi/pyversions/django-component-tags-tailwindcss?style=flat-square&label=Python%20Versions
-            :target: https://pypi.org/project/django-component-tags-tailwindcss/
-
-        .. image:: https://img.shields.io/pypi/djversions/django-component-tags-tailwindcss?label=Django%20Versions&style=flat-square
-            :alt: PyPI - Django Version
+    .. image:: https://img.shields.io/pypi/djversions/django-component-tags-tailwindcss?label=Django%20Versions&style=flat-square
+        :alt: PyPI - Django Version
 
 Tailwindcss component tags for Django Projects.
 
