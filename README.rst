@@ -2,30 +2,30 @@
 Django Component Tags - Tailwindcss
 ===================================
 
-:Test Status:
-    .. image:: https://img.shields.io/github/workflow/status/syse-i/django-component-tags-tailwindcss/Run%20tests
-        :alt: GitHub Workflow Status
+.. comment::
 
-:Version Info:
-    .. image:: https://img.shields.io/pypi/v/django-component-tags-tailwindcss?label=PyPi
-        :alt: PyPI
+    :Test Status:
+        .. image:: https://img.shields.io/github/workflow/status/syse-i/django-component-tags-tailwindcss/Run%20tests
+            :alt: GitHub Workflow Status
 
-    .. image:: https://img.shields.io/pypi/dm/django-component-tags-tailwindcss?label=Downloads&style=flat-square
-        :alt: PyPI - Downloads
+    :Version Info:
+        .. image:: https://img.shields.io/pypi/v/django-component-tags-tailwindcss?label=PyPi
+            :alt: PyPI
 
-:Compatibility:
-    .. image:: https://img.shields.io/pypi/pyversions/django-component-tags-tailwindcss?style=flat-square&label=Python%20Versions
-        :target: https://pypi.org/project/django-component-tags-tailwindcss/
+        .. image:: https://img.shields.io/pypi/dm/django-component-tags-tailwindcss?label=Downloads&style=flat-square
+            :alt: PyPI - Downloads
 
-    .. image:: https://img.shields.io/pypi/djversions/django-component-tags-tailwindcss?label=Django%20Versions&style=flat-square
-        :alt: PyPI - Django Version
+    :Compatibility:
+        .. image:: https://img.shields.io/pypi/pyversions/django-component-tags-tailwindcss?style=flat-square&label=Python%20Versions
+            :target: https://pypi.org/project/django-component-tags-tailwindcss/
+
+        .. image:: https://img.shields.io/pypi/djversions/django-component-tags-tailwindcss?label=Django%20Versions&style=flat-square
+            :alt: PyPI - Django Version
 
 Tailwindcss component tags for Django Projects.
 
-Demo:
-
-* `Components list <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png>`_
-* `Modal component <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png>`_
+* `Demo 1 (Component list) <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-09-33.871Z.png>`_
+* `Demo 2 (Modal component) <https://github.com/syse-i/django-component-tags-tailwindcss/blob/main/docs/_static/images/Firefox_Screenshot_2021-04-06T18-10-16.796Z.png>`_
 
 
 Description
