@@ -1,17 +1,16 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-{% block head %}
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>-----</title>
-        <!-- Styles -->
-        <link rel="stylesheet" href="{% static 'component_tags_tailwindcss/css/tailwind.min.css' %}">
-        {% components_css %}
-    </head>
-{% endblock head %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>-----</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="{% static 'component_tags_tailwindcss/css/tailwind.min.css' %}">
+</head>
+{% components_css %}
 <body>
+
 {% block content %}{% endblock content %}
 <!-- Scripts -->
 {% components_js %}
